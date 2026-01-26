@@ -1,0 +1,26 @@
+body {
+    width: 300px;
+    font-family: sans-serif;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    cursor: pointer;
+}
+
+#bookmarks-list {
+    margin-top: 10px;
+}
+
+.bookmark {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+
+.bookmark a {
+    font-weight: bold;
+}

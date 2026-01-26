@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "AI Bookmarker",
+    "version": "1.0",
+    "description": "Bookmark pages and get AI-powered summaries and tags.",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://localhost/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}

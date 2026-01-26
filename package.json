@@ -1,0 +1,28 @@
+{
+  "name": "ai-bookmarker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abudhahir/ai-bookmarker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/abudhahir/ai-bookmarker/issues"
+  },
+  "homepage": "https://github.com/abudhahir/ai-bookmarker#readme",
+  "dependencies": {
+    "@langchain/openai": "^1.2.3",
+    "axios": "^1.13.3",
+    "commander": "^14.0.2",
+    "langchain": "^1.2.13",
+    "uuid": "^13.0.0"
+  }
+}
