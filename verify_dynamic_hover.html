@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dynamic Hover Verification</title>
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding: 50px;
+            background-color: var(--glaucous-900);
+        }
+
+        .list-item {
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="list-item" style="--accent-color: #ff2f63;">
+        <div class="item-content">
+            <div class="item-title">Red Card (#ff2f63)</div>
+            <div class="item-summary">Hover should expand Red borders. Left border stays Red.</div>
+        </div>
+    </div>
+
+    <div class="list-item" style="--accent-color: #ffb012;">
+        <div class="item-content">
+            <div class="item-title">Amvery Card (#ffb012)</div>
+            <div class="item-summary">Hover should expand Amber borders. Left border stays Amber.</div>
+        </div>
+    </div>
+
+    <div class="list-item" style="--accent-color: #607196;">
+        <div class="item-content">
+            <div class="item-title">Blue Card (#607196)</div>
+            <div class="item-summary">Hover should expand Blue borders. Left border stays Blue.</div>
+        </div>
+    </div>
+</body>
+
+</html>

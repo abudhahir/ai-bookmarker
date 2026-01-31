@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #dfe1e5;
+            padding: 20px;
+        }
+
+        .list-item {
+            display: flex;
+            align-items: flex-start;
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-bottom: 12px;
+            width: 600px;
+            /* Simulate the container width */
+        }
+
+        .item-check,
+        .item-star {
+            margin-right: 15px;
+            min-width: 20px;
+        }
+
+        .item-content {
+            flex: 1;
+            min-width: 0;
+            /* My previous fix */
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            border: 1px solid red;
+            /* Debug border */
+        }
+
+        .title-row {
+            margin-bottom: 0px;
+            display: flex;
+            /* My previous fix */
+            min-width: 0;
+            /* My previous fix */
+            max-width: 100%;
+            /* My previous fix */
+            border: 1px solid blue;
+            /* Debug border */
+        }
+
+        .item-title {
+            font-weight: 700;
+            font-size: 13px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+            /* My previous fix */
+            flex: 1;
+            /* My previous fix */
+            min-width: 0;
+            /* My previous fix */
+            background: #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="list-item">
+        <div class="item-check">[ ]</div>
+        <div class="item-star">[*]</div>
+        <div class="item-content">
+            <div class="title-row">
+                <span class="item-title">danielzen/ionic-pouchdb-todo: A simple Ionic Todo app with a PouchDb local
+                    storage backend configured to sync with a CouchDb installation. Demo of offline functionality with
+                    server synchronization.</span>
+            </div>
+            <div>Summary text here...</div>
+        </div>
+    </div>
+</body>
+
+</html>

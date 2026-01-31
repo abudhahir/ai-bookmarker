@@ -6,7 +6,8 @@
     "permissions": [
         "storage",
         "activeTab",
-        "scripting"
+        "scripting",
+        "bookmarks"
     ],
     "host_permissions": [
         "http://localhost/*"
